@@ -1,0 +1,27 @@
+.page {
+  font-family: 'Euclid Circular A';
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.button_full {
+  background-color: rgba(229, 14, 120, 1);
+  color: #fff;
+}
+
+@media screen and (min-width: 900px) {
+  .page {
+  }
+}

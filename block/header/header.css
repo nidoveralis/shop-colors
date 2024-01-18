@@ -1,0 +1,115 @@
+.header-first {
+  background-color: #F4F6F8;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.header__location-item {
+  display: flex;
+  gap: 5px;
+}
+
+.header__location-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header__list {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  gap: 30px;
+}
+
+.header__link {
+  color: #3B3C40;
+}
+
+.header__icon {
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.header__icon_mail {
+  background-image: url('../../img/svg/icon_mail.svg');
+}
+
+.header__icon_location {
+  background-image: url('../../img/svg/icon_location.svg');
+}
+
+.header__icon_comein {
+  background-image: url('../../img/svg/icon_men.svg');
+}
+
+.header__icon_like {
+  background-image: url('../../img/svg/icon_heart.svg');
+}
+
+.header__icon_basket {
+  background-image: url('../../img/svg/icon_cart.svg');
+}
+
+.header__submit {
+  background-image: url('../../img/svg/icon_search.svg');
+}
+
+.header__form-cotainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__list-button {
+  display: flex;
+  gap: 15px;
+}
+
+.header__form {
+  border: 1px solid rgba(229, 14, 120, 1);
+  border-radius: 15px;
+  padding: 5px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  width: 40%;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__icon-count {
+  display: block;
+  width: 22px;
+  height: 22px;
+  color: #fff;
+  background-color: rgba(229, 14, 120, 1);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  position: absolute;
+}
+
+@media screen and (min-width: 900px) {
+  .header__form-cotainer,
+  .header-first {
+    padding: 14px 9.4vw;
+  }
+
+
+}
