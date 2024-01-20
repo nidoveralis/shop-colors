@@ -13,11 +13,11 @@
     <div class="header-first">
       <ul class="header__location-list">
         <li class="header__location-item">
-          <i class="header__icon header__icon_location"></i>
+          <i class="icon header__icon_location"></i>
           <p>Магазины</p>
         </li>
         <li class="header__location-item">
-          <i class="header__icon header__icon_mail"></i>
+          <i class="icon header__icon_mail"></i>
           <p>info@kraskizdes.ru</p>
         </li>
       </ul>
@@ -42,74 +42,419 @@
         </li>
       </ul>
     </div>
-    <div class="header__form-cotainer">
+    <div class="header__container">
       <img class="header__logo" src="./img/svg/icon_logo.svg" alt="Логотип">
       <button class="button button_full header__catalog">
-        <p>Каталог</p>
-        <i class="header__icon header__icon_catalog"></i>
+        <p class="header__text">Каталог</p>
+        <div class="icon-container"> 
+          <i class="icon header__icon_catalog"></i>
+        </div>
       </button>
       <form class="header__form">
         <input class="header__input" type="text" placeholder="Искать товары">
-        <button type="submit" class="button button_full header__icon header__submit"></button>
+        <button type="submit" class="button button_full header__submit"></button>
       </form>
-      <ul class="header__list">
+      <ul class="header__list header__menu">
         <li>
-          <i class="header__icon header__icon_comein"></i>
-          <p class="header__text">Войти</p>
+          <button class="button header__menu-item">
+            <i class="icon header__icon_comein"></i>
+            <p class="header__text">Войти</p>
+          </button>
         </li>
         <li>
-          <i class="header__icon header__icon_like"></i>
-          <span class="header__icon-count">7</span>
-          <p class="header__text">Избранное</p>
+          <button class="button header__menu-item">
+            <div class="icon header__icon_like">
+              <span class="header__icon-count">7</span>
+            </div>
+            <p class="header__text">Избранное</p>
+          </button>
         </li>
         <li>
-          <i class="header__icon header__icon_basket"></i>
-          <span class="header__icon-count">4</span>
-          <p class="header__text">Корзина</p>
+          <button class="button header__menu-item">
+            <div class="icon header__icon_basket">
+              <span class="header__icon-count">4</span>
+            </div>
+            <p class="header__text">Корзина</p>
+          </button>
         </li>
       </ul>
     </div>
-    <div class="header__form-cotainer">
-      <ul class="header__list-button">
-        <li class="header__item-button">
-          <button class="button header__button-grey">
-            <img class="header__icon" src="./img/svg/icon_fire.svg" alt="Иконка">
+    <div class="header__container header__container_phone">
+      <ul class="button__list">
+        <li class="button__item">
+          <button class="button button_grey">
+            <img class="icon" src="./img/svg/icon_fire.svg" alt="Иконка">
             <p>Акции</p>
           </button>
         </li>
-        <li class="header__item-button">
-          <button class="button header__button-grey">
-            <img class="header__icon" src="./img/svg/icon_tiket.svg" alt="Иконка">
+        <li class="button__item">
+          <button class="button button_grey">
+            <img class="icon" src="./img/svg/icon_tiket.svg" alt="Иконка">
             <p>Бренды</p>
           </button>
         </li>
-        <li class="header__item-button">
-          <button class="button header__button-grey">
-            <img class="header__icon" src="./img/svg/icon_premium.svg" alt="Иконка">
+        <li class="button__item">
+          <button class="button button_grey">
+            <img class="icon" src="./img/svg/icon_premium.svg" alt="Иконка">
             <p>Premium бренды</p>
           </button>
         </li>
-        <li class="header__item-button">
-          <button class="button header__button-grey">
-            <img class="header__icon" src="./img/svg/icon_color.svg" alt="Иконка">
+        <li class="button__item">
+          <button class="button button_grey">
+            <img class="icon" src="./img/svg/icon_color.svg" alt="Иконка">
             <p>Подбор по параметрам</p>
           </button>
         </li>
-        <li class="header__item-button">
-          <button class="button header__button-grey">
-            <img class="header__icon" src="./img/svg/icon_palet.svg" alt="Иконка">
+        <li class="button__item">
+          <button class="button button_grey">
+            <img class="icon" src="./img/svg/icon_palet.svg" alt="Иконка">
             <p>Онлайн-колеровка</p>
           </button>
         </li>
-        <li class="header__item-button">
-          <button class="button header__button-grey">
-            <img class="header__icon" src="./img/svg/icon_news.svg" alt="Иконка">
+        <li class="button__item">
+          <button class="button button_grey">
+            <img class="icon" src="./img/svg/icon_news.svg" alt="Иконка">
             <p>Новости компании</p>
           </button>
         </li>
       </ul>
+      <button class="button button_full header__phone">
+        <i class="icon icon_phone"></i>
+        <p class="header__text">8 (495) 120-81-55</p>
+      </button>
     </div>
   </header>
+  <main class="main">
+    <div class="slider slider_grey">
+      <div class="card card__ad">
+        <img src="./img/file_1.png">
+        <div class="card__content">
+          <span class="card__span">до</span>
+          <p class="card__header">25</p>
+          <p class="card__percent">%</p>
+          <p class="card__text">Скидки на выделенные товары Benjamine Moore</p>
+        </div>
+        <button class="card__button card__button_ad"></button>
+      </div>
+      <ul class="slider__list">
+        <li class="card card__slide">
+          <div class="card__picture">
+            <span class="card__sale">-25%</span>
+            <img alt="Фото товара" class="card__img" src="./img/file_2.png">
+          </div>
+          <p class="card__title">Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+          <p class="card__bulk">0.95 л<span class="card__dot"></span>2 л</p>
+          <div class="card__price">
+            <p class="card__price-now">от 3600 ₽</p>
+            <p class="card__price-old">4500 ₽</p>
+          </div>
+          <button class="card__button card__button_slide"></button>
+        </li>
+        <li class="card card__slide">
+          <div class="card__picture">
+            <span class="card__sale">-10%</span>
+            <img alt="Фото товара" class="card__img" src="./img/file_3.png">
+          </div>
+          <p class="card__title">Benjamin Moore Aura 532 Bath & Spa Waterborne Interior Paint Matte Finish</p>
+          <p class="card__bulk">0.95 л<span class="card__dot"></span>2 л</p>
+          <div class="card__price">
+            <p class="card__price-now">5200 ₽</p>
+            <p class="card__price-old">5720 ₽</p>
+          </div>
+          <button class="card__button card__button_slide"></button>
+        </li>
+        <li class="card card__slide">
+          <div class="card__picture">
+            <span class="card__sale">-25%</span>
+            <img alt="Фото товара" class="card__img" src="./img/file_2.png">
+          </div>
+          <p class="card__title">Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+          <p class="card__bulk">0.95 л<span class="card__dot"></span>2 л</p>
+          <div class="card__price">
+            <p class="card__price-now">от 3600 ₽</p>
+            <p class="card__price-old">4500 ₽</p>
+          </div>
+          <button class="card__button card__button_slide"></button>
+        </li>
+        <li class="card card__slide">
+          <div class="card__picture">
+            <span class="card__sale">-25%</span>
+            <img alt="Фото товара" class="card__img" src="./img/file_3.png">
+          </div>
+          <p class="card__title">Benjamin Moore Aura 532 Bath & Spa Waterborne Interior Paint Matte Finish</p>
+          <p class="card__bulk">0.95 л<span class="card__dot"></span>2 л</p>
+          <div class="card__price">
+            <p class="card__price-now">5200 ₽</p>
+            <p class="card__price-old">5720 ₽</p>
+          </div>
+          <button class="card__button card__button_slide"></button>
+        </li>
+        <li class="card card__slide">
+          <div class="card__picture">
+            <span class="card__sale">-25%</span>
+            <img alt="Фото товара" class="card__img" src="./img/file_2.png">
+          </div>
+          <p class="card__title">Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+          <p class="card__bulk">0.95 л<span class="card__dot"></span>2 л</p>
+          <div class="card__price">
+            <p class="card__price-now">от 3600 ₽</p>
+            <p class="card__price-old">4500 ₽</p>
+          </div>
+          <button class="card__button card__button_slide"></button>
+        </li>
+        <li class="card card__slide">
+          <div class="card__picture">
+            <span class="card__sale">-25%</span>
+            <img alt="Фото товара" class="card__img" src="./img/file_3.png">
+          </div>
+          <p class="card__title">Benjamin Moore Aura 532 Bath & Spa Waterborne Interior Paint Matte Finish</p>
+          <p class="card__bulk">0.95 л<span class="card__dot"></span>2 л</p>
+          <div class="card__price">
+            <p class="card__price-now">5200 ₽</p>
+            <p class="card__price-old">5720 ₽</p>
+          </div>
+          <button class="card__button card__button_slide"></button>
+        </li>
+      </ul>
+      <button class="button slider__button slider__button_right"></button>
+      <button class="button slider__button slider__button_left hidden"></button>
+   
+
+    </div>
+
+    <section class="section">
+      <ul class="components">
+        <li class="component">
+          <img class="component__img" alt="Картинка" src="./img/component1.png">
+          <div class="component__content">
+            <p class="component__header">Профессиональный подбор цвета</p>
+            <p class="component__text">Отвечаем на вопросы покупателей в течение 10 минут</p>
+          </div>
+        </li>
+        <li class="component">
+          <img class="component__img" alt="Картинка" src="./img/component2.png">
+          <div class="component__content">
+            <p class="component__header">Широкий выбор красок</p>
+            <p class="component__text">Дарим подарки и скидки до 70% всем покупателям</p>
+          </div>
+        </li>
+        <li class="component">
+          <img class="component__img" alt="Картинка" src="./img/component3.png">
+          <div class="component__content">
+            <p class="component__header">Гарантия качества продукции</p>
+            <p class="component__text">Соответствуем требованиям и стандартам качества</p>
+          </div>
+        </li>
+      </ul>
+
+      <div class="element">
+        <div class="element__header">
+          <p class="element__title">Популярные категории</p>
+          <button class="button element__button">
+            <p class="element__button-text">Все категории</p>
+            <div class="icon-container"> 
+              <i class="icon element__icon-button"></i>
+            </div>
+          </button>
+        </div>
+        <ul class="button__list">
+          <li class="button__item">
+            <button class="button button_grey">
+              <img class="icon" src="./img/svg/icon_fire.svg" alt="Иконка">
+              <p>Акции</p>
+            </button>
+          </li>
+          <li class="button__item">
+            <button class="button button_grey">
+              <p>Для внутренних работ</p>
+            </button>
+          </li>
+          <li class="button__item">
+            <button class="button button_grey">
+              <p>Для наружных работ</p>
+            </button>
+          </li>
+          <li class="button__item">
+            <button class="button button_grey">
+              <p>Универсальные</p>
+            </button>
+          </li>
+          <li class="button__item">
+            <button class="button button_grey">
+              <p>Специального назначения</p>
+            </button>
+          </li>
+          <li class="button__item">
+            <button class="button button_grey">
+              <p>Грунтовки</p>
+            </button>
+          </li>
+          <li class="button__item">
+            <button class="button button_grey">
+              <p>Специального назначения</p>
+            </button>
+          </li>
+          <li class="button__item">
+            <button class="button button_grey">
+              <p>Специального назначения</p>
+            </button>
+          </li>
+        </ul>
+        <div class="slider slider_category">
+          <ul class="slider__list">
+            <li class="element__card">
+              <img alt="Фото в интерьере" src="./img/img_1.jpg" class="element__img">
+              <a class="element__link" href="#" target="_blank">
+                <p class="element__link-name">Краски для стен</p>
+                <p class="element__text">500+ товаров</p>
+              </a>
+            </li>
+            <li class="element__card">
+              <img alt="Фото в интерьере" src="./img/img_2.jpg" class="element__img">
+              <a class="element__link" href="#" target="_blank">
+                <p class="element__link-name">Краски для потолка</p>
+                <p class="element__text">500+ товаров</p>
+              </a>
+            </li>
+            <li class="element__card">
+              <img alt="Фото в интерьере" src="./img/img_3.jpg" class="element__img">
+              <a class="element__link" href="#" target="_blank">
+                <p class="element__link-name">Краски для кухни и ванной</p>
+                <p class="element__text">500+ товаров</p>
+              </a>
+            </li>
+            <li class="element__card">
+              <img alt="Фото в интерьере" src="./img/img_4.jpg" class="element__img">
+              <a class="element__link" href="#" target="_blank">
+                <p class="element__link-name">Краски для пола</p>
+                <p class="element__text">500+ товаров</p>
+              </a>
+            </li>
+            <li class="element__card">
+              <img alt="Фото в интерьере" src="./img/img_1.jpg" class="element__img">
+              <a class="element__link" href="#" target="_blank">
+                <p class="element__link-name">Краски для стен</p>
+                <p class="element__text">500+ товаров</p>
+              </a>
+            </li>
+            <li class="element__card">
+              <img alt="Фото в интерьере" src="./img/img_2.jpg" class="element__img">
+              <a class="element__link" href="#" target="_blank">
+                <p class="element__link-name">Краски для стен</p>
+                <p class="element__text">500+ товаров</p>
+              </a>
+            </li>
+          </ul>
+          <button class="button slider__button slider__button_right"></button>
+          <button class="button slider__button slider__button_left hidden"></button>
+       
+    
+        </div>
+      </div>
+
+      <div class="element">
+        <div class="element__header">
+          <p class="element__title">Скидки</p>
+          <button class="button element__button">
+            <p class="element__button-text">Все скидки</p>
+            <div class="icon-container"> 
+              <i class="icon element__icon-button"></i>
+            </div>
+          </button>
+        </div>
+        <div class="slider slider_category">
+          <ul class="slider__list">
+            <li class="card card__slide">
+              <div class="card__picture">
+                <span class="card__sale">новинка</span>
+                <img alt="Фото товара" class="card__img" src="./img/file_2.png">
+              </div>
+              <p class="card__title">Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+              <p class="card__bulk">0.95 л<span class="card__dot"></span>2 л</p>
+              <div class="card__price">
+                <p class="card__price-now">от 3600 ₽</p>
+                <p class="card__price-old">4500 ₽</p>
+              </div>
+              <button class="card__button card__button_slide"></button>
+            </li>
+            <li class="card card__slide">
+              <div class="card__picture">
+                <span class="card__sale">новинка</span>
+                <img alt="Фото товара" class="card__img" src="./img/file_2.png">
+              </div>
+              <p class="card__title">Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+              <p class="card__bulk">0.95 л<span class="card__dot"></span>2 л</p>
+              <div class="card__price">
+                <p class="card__price-now">от 3600 ₽</p>
+                <p class="card__price-old">4500 ₽</p>
+              </div>
+              <button class="card__button card__button_slide"></button>
+            </li>
+            <li class="card card__slide">
+              <div class="card__picture">
+                <span class="card__sale">новинка</span>
+                <img alt="Фото товара" class="card__img" src="./img/file_2.png">
+              </div>
+              <p class="card__title">Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+              <p class="card__bulk">0.95 л<span class="card__dot"></span>2 л</p>
+              <div class="card__price">
+                <p class="card__price-now">от 3600 ₽</p>
+                <p class="card__price-old">4500 ₽</p>
+              </div>
+              <button class="card__button card__button_slide"></button>
+            </li>
+            <li class="card card__slide">
+              <div class="card__picture">
+                <span class="card__sale">новинка</span>
+                <img alt="Фото товара" class="card__img" src="./img/file_2.png">
+              </div>
+              <p class="card__title">Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+              <p class="card__bulk">0.95 л<span class="card__dot"></span>2 л</p>
+              <div class="card__price">
+                <p class="card__price-now">от 3600 ₽</p>
+                <p class="card__price-old">4500 ₽</p>
+              </div>
+              <button class="card__button card__button_slide"></button>
+            </li>
+            <li class="card card__slide">
+              <div class="card__picture">
+                <span class="card__sale">новинка</span>
+                <img alt="Фото товара" class="card__img" src="./img/file_2.png">
+              </div>
+              <p class="card__title">Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+              <p class="card__bulk">0.95 л<span class="card__dot"></span>2 л</p>
+              <div class="card__price">
+                <p class="card__price-now">от 3600 ₽</p>
+                <p class="card__price-old">4500 ₽</p>
+              </div>
+              <button class="card__button card__button_slide"></button>
+            </li>
+            <li class="card card__slide">
+              <div class="card__picture">
+                <span class="card__sale">новинка</span>
+                <img alt="Фото товара" class="card__img" src="./img/file_2.png">
+              </div>
+              <p class="card__title">Benjamin Moore Regal Select 549 Waterborne Interior Paint Eggshell</p>
+              <p class="card__bulk">0.95 л<span class="card__dot"></span>2 л</p>
+              <div class="card__price">
+                <p class="card__price-now">от 3600 ₽</p>
+                <p class="card__price-old">4500 ₽</p>
+              </div>
+              <button class="card__button card__button_slide"></button>
+            </li>
+          </ul>
+          <button class="button slider__button slider__button_right"></button>
+          <button class="button slider__button slider__button_left hidden"></button>
+       
+    
+        </div>
+      </div>
+    </section>
+
+
+
+    
+  </main>
 </body>
 
 </html>

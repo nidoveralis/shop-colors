@@ -1,0 +1,76 @@
+.slider {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  overflow: hidden;
+  gap: 20px;
+  position: relative;
+}
+
+.slider_grey {
+  background-color: #F3EFFF;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  padding: 2.5%;
+}
+
+.slider__list {
+  display: flex;
+  overflow: hidden;
+  align-items: start;
+  justify-content: stretch;
+  gap: 20px;
+}
+
+.slider__button {
+  background-image: url('../../img/svg/icon_slider.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 43.5%;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  box-shadow: 3px 6px 14px rgba(115, 103, 151, 0.15);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.slider__button_right {
+  right: 20px;
+}
+
+.element .slider__button_right {
+  right: 0px;
+  top: 41.8%;
+}
+
+.slider__button_left {
+  left: 20px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.element .slider__button_left  {
+  left: 0px;
+  top: 41.8%;
+}
+
+@media screen and (min-width: 900px) {
+  .slider_grey {
+    margin-top: 4.3%;
+  }
+
+  .slider_category {
+    margin-top: 1.6%;
+  }
+}

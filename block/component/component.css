@@ -1,0 +1,48 @@
+.components {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 5%;
+}
+
+.component {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color:#F3EFFF;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  background-image: url('../../img/Mask_group.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 40px 32px;
+}
+
+.component__content {
+  width: 60%;
+}
+
+.component__header {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #3B3C40;
+  margin-bottom: 12px;
+}
+
+.component__text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #9293B0;
+}
+
+@media screen and (min-width: 900px) {
+  .component {
+    width: 32.5%;
+  }
+}
