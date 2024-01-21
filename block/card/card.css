@@ -91,6 +91,13 @@
   gap: 19px;
 }
 
+.card__slide_shadow {
+  filter: drop-shadow(5px 15px 70px rgba(173, 178, 201, 0.35));
+  -webkit-filter: drop-shadow(5px 15px 70px rgba(173, 178, 201, 0.35));
+  margin-top: 37px;
+  margin-bottom: 75px;
+}
+
 .card__button_slide {
   background-color: #E50E78;
   background-image: url('../../img/svg/icon_basket-w.svg');

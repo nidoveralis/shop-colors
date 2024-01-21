@@ -48,7 +48,7 @@
 
 .element .slider__button_right {
   right: 0px;
-  top: 41.8%;
+  top: 48.8%;
 }
 
 .slider__button_left {
@@ -62,7 +62,7 @@
 
 .element .slider__button_left  {
   left: 0px;
-  top: 41.8%;
+  top: 48.8%;
 }
 
 @media screen and (min-width: 900px) {

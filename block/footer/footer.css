@@ -1,0 +1,129 @@
+.footer {
+  display: flex;
+  background-color: #F4F6F8;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.footer__logo {
+  width: 64px;
+  margin: 35px;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px 3px;
+  flex-wrap: wrap;
+  height: 80%;
+  width: 572px;
+}
+
+.footer__text {
+  color: #9293B0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-wrap: wrap;
+}
+
+.footer__header {
+  color: #3B3C40;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.footer__item {
+  width: 53%;
+}
+
+.footer__container {
+  width: 14.5%;
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+}
+
+.footer__block {
+  margin-bottom: 14%;
+  margin-top: 2px;
+}
+
+.footer__icons {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.footer__icon {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+}
+
+.footer__button {
+  border: 1px solid #9293B0;
+  padding: 13px 20px;
+  border-radius: 60px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer__block-star {
+  margin-top: auto;
+}
+
+.footer__start {
+  color: #3B3C40;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  background-image: url('../../img/svg/icon_star.svg');
+  background-repeat: no-repeat;
+  height: 25px;
+  margin-bottom: 12.5%;
+  display: flex;
+  align-items: center;
+  padding-left: 39px;
+  padding-bottom: 5px;
+}
+
+.footer__icon_vk {
+  background-image: url('../../img/svg/icon_vk.svg');
+}
+
+.footer__icon__yout {
+  background-image: url('../../img/svg/icon_youtube.svg');
+}
+
+@media screen and (min-width: 900px) {
+  .footer {
+    margin: 3.2vw 9.4vw;
+    height: 560px;
+    padding: 3%;
+  }
+
+  .footer__container_logo {
+     margin-right: 4%;
+  }
+
+  .footer__container_contacts {
+
+  }
+}

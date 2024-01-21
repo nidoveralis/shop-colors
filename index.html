@@ -248,7 +248,7 @@
       </ul>
 
       <div class="element">
-        <div class="element__header">
+        <div class="element__header element__header_popular">
           <p class="element__title">Популярные категории</p>
           <button class="button element__button">
             <p class="element__button-text">Все категории</p>
@@ -364,7 +364,7 @@
         </div>
         <div class="slider slider_category">
           <ul class="slider__list">
-            <li class="card card__slide">
+            <li class="card card__slide card__slide_shadow">
               <div class="card__picture">
                 <span class="card__sale">новинка</span>
                 <img alt="Фото товара" class="card__img" src="./img/file_2.png">
@@ -377,7 +377,7 @@
               </div>
               <button class="card__button card__button_slide"></button>
             </li>
-            <li class="card card__slide">
+            <li class="card card__slide card__slide_shadow">
               <div class="card__picture">
                 <span class="card__sale">новинка</span>
                 <img alt="Фото товара" class="card__img" src="./img/file_2.png">
@@ -390,7 +390,7 @@
               </div>
               <button class="card__button card__button_slide"></button>
             </li>
-            <li class="card card__slide">
+            <li class="card card__slide card__slide_shadow">
               <div class="card__picture">
                 <span class="card__sale">новинка</span>
                 <img alt="Фото товара" class="card__img" src="./img/file_2.png">
@@ -403,7 +403,7 @@
               </div>
               <button class="card__button card__button_slide"></button>
             </li>
-            <li class="card card__slide">
+            <li class="card card__slide card__slide_shadow">
               <div class="card__picture">
                 <span class="card__sale">новинка</span>
                 <img alt="Фото товара" class="card__img" src="./img/file_2.png">
@@ -416,7 +416,7 @@
               </div>
               <button class="card__button card__button_slide"></button>
             </li>
-            <li class="card card__slide">
+            <li class="card card__slide card__slide_shadow">
               <div class="card__picture">
                 <span class="card__sale">новинка</span>
                 <img alt="Фото товара" class="card__img" src="./img/file_2.png">
@@ -429,7 +429,7 @@
               </div>
               <button class="card__button card__button_slide"></button>
             </li>
-            <li class="card card__slide">
+            <li class="card card__slide card__slide_shadow">
               <div class="card__picture">
                 <span class="card__sale">новинка</span>
                 <img alt="Фото товара" class="card__img" src="./img/file_2.png">
@@ -445,16 +445,149 @@
           </ul>
           <button class="button slider__button slider__button_right"></button>
           <button class="button slider__button slider__button_left hidden"></button>
-       
-    
         </div>
       </div>
     </section>
 
-
-
-    
+    <div class="block-form">
+      <div class="block-form__container">
+        <img src="./img/img-form.png" alt="Картинка" class="block-form__img">
+      </div>
+      <form class="form">
+        <p class="form__title">Нужна консультация?</p>
+        <p class="form__subtitle">Оставьте свои данные, и мы перезвоним вам в ближайшее время</p>
+        <input class="form__input form__input_name" type="text" placeholder="Ваше имя">
+        <input class="form__input form__input_phone" type="number" placeholder="Номер телефона">
+        <div class="form__footer">
+          <p class="form__text">Нажимая на кнопку «Отправить», Вы принимаете условия <a class="form__link" href="#" target="_blank">Соглашения</a></p>
+          <button class="button element__button" type="submit">
+            <p class="element__button-text">Отправить</p>
+            <div class="icon-container"> 
+              <i class="icon element__icon-button"></i>
+            </div>
+          </button>
+        </div>
+      </form>
+    </div>
   </main>
+  <footer class="footer">
+    <div class="footer__container footer__container_logo">
+      <img src="./img/svg/icon_logo.svg" alt="Логотип" class="footer__logo">
+      <div class="footer__block-star">
+        <div class="footer__start">
+          <p>5/5</p>
+        </div>
+        <button class="footer__button">Написать директору</button>
+      </div>
+    </div>
+    <div class="footer__container footer__container_contacts">
+      <div class="footer__block">
+        <p class="footer__header">Телефон</p>
+        <p class="footer__text">8 (495) 120-81-55</p>
+      </div>
+      <div class="footer__block">
+        <p class="footer__header">Электронная почта</p>
+        <p class="footer__text">info@kraskizdes.ru</p>
+      </div>
+      <div class="footer__icons">
+        <i class="footer__icon footer__icon_vk"></i>
+        <i class="footer__icon footer__icon__yout"></i>
+      </div>
+    </div>
+    
+    <nav>
+      <p class="footer__header">О компании</p>
+      <ul class="footer__list">
+        <li>
+          <a class="link footer__text" href="#" target="_blank">О нас</a>
+        </li>
+        <li>
+          <a class="link footer__text" href="#" target="_blank">Бренды</a>
+        </li>
+        <li>
+          <a class="link footer__text" href="#" target="_blank">Вакансии</a>
+        </li>
+        <li>
+          <a class="link footer__text" href="#" target="_blank">Для бизнеса</a>
+        </li>
+        <li>
+          <a class="link footer__text" href="#" target="_blank">Магазины</a>
+        </li>
+        <li>
+          <a class="link footer__text" href="#" target="_blank">Оплата</a>
+        </li>
+        <li>
+          <a class="link footer__text" href="#" target="_blank">Доставка</a>
+        </li>
+        <li>
+          <a class="link footer__text" href="#" target="_blank">Акции</a>
+        </li>
+        <li>
+          <a class="link footer__text" href="#" target="_blank">Помощь</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav>
+      <p class="footer__header">Каталог</p>
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Спецпредложение</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Краски для&nbsp;внутренних работ</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Краски для наружных работ</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Краски универсальные</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Краски специального назначения</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Антисептики, пропитки, лазури<br>для&nbsp;дерева и камня</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Лаки, масла, воски</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Грунтовки</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Декоративные штукатурки, фактурные&nbsp;краски</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Декоративные дизайнерские краски</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Монтажные пены и очистители</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Клея, герметики, гидроизоляция</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Затирки, сухие смеси</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Растворители и очистители, спецсредства</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Малярные&nbsp;инструменты,&nbsp;краскопульты</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Морилки по дереву</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Стеклообои, малярный флизелин, обои&nbsp;под покраску</a>
+        </li>
+        <li class="footer__item">
+          <a class="link footer__text" href="#" target="_blank">Каталоги цветов, колеровочные&nbsp;карты</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 
 </html>

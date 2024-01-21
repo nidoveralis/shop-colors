@@ -70,15 +70,9 @@
   background-image: url('../../img/svg/icon_arrow-right.svg');
 }
 
-
-/* 
-box-shadow: 5px 15px 70px rgba(173, 178, 201, 0.35);
-*/
-
-
 @media screen and (min-width: 900px) {
 
-  .element__header {
+  .element__header_popular {
     margin-bottom: 4%;
   }
 }

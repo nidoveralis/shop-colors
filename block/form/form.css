@@ -1,0 +1,69 @@
+.form {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.form__title {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 63px;
+  color: #3B3C40;
+  margin-bottom: 20px;
+}
+
+.form__subtitle {
+  color: #9293B0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.form__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  width: 94.3%;
+}
+
+.form__link,
+.form__text {
+  color: #9293B0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.form__link {
+  cursor: pointer;
+  border-bottom: 1px solid #9293B0;
+}
+
+.form__input {
+  border: 1px solid #E50E78;
+  padding: 18px 18px 18px 10%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-top: 20px;
+  width: 94.3%;
+  background-repeat: no-repeat;
+  background-position: 24px center;
+}
+
+.form__input_name {
+  background-image: url('../../img/svg/icon_men.svg');
+}
+
+.form__input_phone {
+  background-image: url('../../img/svg/icon_phone_black.svg');
+}
