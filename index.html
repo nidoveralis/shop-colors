@@ -265,7 +265,7 @@
             </button>
           </li>
           <li class="button__item">
-            <button class="button button_grey">
+            <button class="button button_grey button_active ">
               <p>Для внутренних работ</p>
             </button>
           </li>
@@ -375,7 +375,7 @@
                 <p class="card__price-now">от 3600 ₽</p>
                 <p class="card__price-old">4500 ₽</p>
               </div>
-              <button class="card__button card__button_slide"></button>
+              <button class="card__button card__button_slide card__button_slide_active"></button>
             </li>
             <li class="card card__slide card__slide_shadow">
               <div class="card__picture">
@@ -471,122 +471,131 @@
     </div>
   </main>
   <footer class="footer">
-    <div class="footer__container footer__container_logo">
-      <img src="./img/svg/icon_logo.svg" alt="Логотип" class="footer__logo">
-      <div class="footer__block-star">
-        <div class="footer__start">
-          <p>5/5</p>
+    <div class="footer__content">
+      <div class="footer__container footer__container_logo">
+        <img src="./img/svg/icon_logo.svg" alt="Логотип" class="footer__logo">
+        <div class="footer__block-star">
+          <div class="footer__start">
+            <p>5/5</p>
+          </div>
+          <button class="footer__button">Написать директору</button>
         </div>
-        <button class="footer__button">Написать директору</button>
       </div>
+      <div class="footer__container footer__container_contacts">
+        <div class="footer__block">
+          <p class="footer__header">Телефон</p>
+          <p class="footer__text">8 (495) 120-81-55</p>
+        </div>
+        <div class="footer__block">
+          <p class="footer__header">Электронная почта</p>
+          <p class="footer__text">info@kraskizdes.ru</p>
+        </div>
+        <div class="footer__icons">
+          <i class="footer__icon footer__icon_vk"></i>
+          <i class="footer__icon footer__icon__yout"></i>
+        </div>
+  
+        <div class="footer__icons footer__payment">
+          <i class="footer__icon footer__icon_master"></i>
+          <i class="footer__icon footer__icon_visa"></i>
+          <i class="footer__icon footer__icon_mir"></i>
+        </div>
+      </div>
+      
+      <nav class="footer__navigation">
+        <p class="footer__header">О компании</p>
+        <ul class="footer__list">
+          <li>
+            <a class="link footer__text" href="#" target="_blank">О нас</a>
+          </li>
+          <li>
+            <a class="link footer__text" href="#" target="_blank">Бренды</a>
+          </li>
+          <li>
+            <a class="link footer__text" href="#" target="_blank">Вакансии</a>
+          </li>
+          <li>
+            <a class="link footer__text" href="#" target="_blank">Для бизнеса</a>
+          </li>
+          <li>
+            <a class="link footer__text" href="#" target="_blank">Магазины</a>
+          </li>
+          <li>
+            <a class="link footer__text" href="#" target="_blank">Оплата</a>
+          </li>
+          <li>
+            <a class="link footer__text" href="#" target="_blank">Доставка</a>
+          </li>
+          <li>
+            <a class="link footer__text" href="#" target="_blank">Акции</a>
+          </li>
+          <li>
+            <a class="link footer__text" href="#" target="_blank">Помощь</a>
+          </li>
+        </ul>
+      </nav>
+  
+      <nav>
+        <p class="footer__header">Каталог</p>
+        <ul class="footer__list footer__list_catalog">
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Спецпредложение</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Краски для&nbsp;внутренних работ</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Краски для наружных работ</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Краски универсальные</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Краски специального назначения</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Антисептики, пропитки, лазури<br>для&nbsp;дерева и камня</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Лаки, масла, воски</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Грунтовки</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Декоративные штукатурки, фактурные&nbsp;краски</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Декоративные дизайнерские краски</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Монтажные пены и очистители</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Клея, герметики, гидроизоляция</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Затирки, сухие смеси</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Растворители и очистители, спецсредства</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Малярные&nbsp;инструменты,&nbsp;краскопульты</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Морилки по дереву</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Стеклообои, малярный флизелин, обои&nbsp;под покраску</a>
+          </li>
+          <li class="footer__item">
+            <a class="link footer__text" href="#" target="_blank">Каталоги цветов, колеровочные&nbsp;карты</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <div class="footer__container footer__container_contacts">
-      <div class="footer__block">
-        <p class="footer__header">Телефон</p>
-        <p class="footer__text">8 (495) 120-81-55</p>
-      </div>
-      <div class="footer__block">
-        <p class="footer__header">Электронная почта</p>
-        <p class="footer__text">info@kraskizdes.ru</p>
-      </div>
-      <div class="footer__icons">
-        <i class="footer__icon footer__icon_vk"></i>
-        <i class="footer__icon footer__icon__yout"></i>
-      </div>
-    </div>
-    
-    <nav>
-      <p class="footer__header">О компании</p>
-      <ul class="footer__list">
-        <li>
-          <a class="link footer__text" href="#" target="_blank">О нас</a>
-        </li>
-        <li>
-          <a class="link footer__text" href="#" target="_blank">Бренды</a>
-        </li>
-        <li>
-          <a class="link footer__text" href="#" target="_blank">Вакансии</a>
-        </li>
-        <li>
-          <a class="link footer__text" href="#" target="_blank">Для бизнеса</a>
-        </li>
-        <li>
-          <a class="link footer__text" href="#" target="_blank">Магазины</a>
-        </li>
-        <li>
-          <a class="link footer__text" href="#" target="_blank">Оплата</a>
-        </li>
-        <li>
-          <a class="link footer__text" href="#" target="_blank">Доставка</a>
-        </li>
-        <li>
-          <a class="link footer__text" href="#" target="_blank">Акции</a>
-        </li>
-        <li>
-          <a class="link footer__text" href="#" target="_blank">Помощь</a>
-        </li>
-      </ul>
-    </nav>
-
-    <nav>
-      <p class="footer__header">Каталог</p>
-      <ul class="footer__list">
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Спецпредложение</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Краски для&nbsp;внутренних работ</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Краски для наружных работ</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Краски универсальные</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Краски специального назначения</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Антисептики, пропитки, лазури<br>для&nbsp;дерева и камня</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Лаки, масла, воски</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Грунтовки</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Декоративные штукатурки, фактурные&nbsp;краски</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Декоративные дизайнерские краски</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Монтажные пены и очистители</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Клея, герметики, гидроизоляция</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Затирки, сухие смеси</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Растворители и очистители, спецсредства</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Малярные&nbsp;инструменты,&nbsp;краскопульты</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Морилки по дереву</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Стеклообои, малярный флизелин, обои&nbsp;под покраску</a>
-        </li>
-        <li class="footer__item">
-          <a class="link footer__text" href="#" target="_blank">Каталоги цветов, колеровочные&nbsp;карты</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="footer__copiright">© 2023 Интернет-магазин лакокрасочной продукции</div>
   </footer>
 </body>
 

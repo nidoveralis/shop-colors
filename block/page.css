@@ -44,6 +44,11 @@
   padding: 16px 24px;
 }
 
+.button_active {
+  background-color: #E50E78;
+  color: #fff;
+}
+
 .icon {
   background-repeat: no-repeat;
   width: 24px;

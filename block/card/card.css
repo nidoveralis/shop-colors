@@ -103,6 +103,10 @@
   background-image: url('../../img/svg/icon_basket-w.svg');
 }
 
+.card__button_slide_active {
+  background-color: #3B3C40;
+}
+
 .card__sale {
   background-color: #E50E78;
   border-radius: 15px;
