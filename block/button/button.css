@@ -1,0 +1,48 @@
+.button__list {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.button_full {
+  background-color: rgba(229, 14, 120, 1);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button_grey {
+  padding: 13px 24px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  background-color: #F4F6F8;
+  text-wrap: nowrap;
+}
+
+.element .button_grey {
+  padding: 16px 24px;
+}
+
+
+.button_active {
+  background-color: #E50E78;
+  color: #fff;
+}
+
+.button_popup {
+  width: 48.5%;
+  justify-content: end;
+  gap: 21%;
+}

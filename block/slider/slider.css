@@ -40,6 +40,8 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  border: none;
+  cursor: pointer;
 }
 
 .slider__button_right {
