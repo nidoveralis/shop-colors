@@ -25,6 +25,15 @@
   line-height: 23px;
   padding: 5px 5px 5px 31px;
   gap: 24px;
+  transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+}
+
+.element__button:hover {
+  background: linear-gradient(95.88deg, #FA67BF 0%, #BE63EF 101.4%);
 }
 
 .element__card {

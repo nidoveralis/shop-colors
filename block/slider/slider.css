@@ -7,6 +7,10 @@
   position: relative;
 }
 
+.slider__container {
+  position: relative;
+}
+
 .slider_grey {
   background-color: #F3EFFF;
   border-radius: 50px;
@@ -19,7 +23,6 @@
 
 .slider__list {
   display: flex;
-  overflow: hidden;
   align-items: start;
   justify-content: stretch;
   gap: 20px;
@@ -50,11 +53,11 @@
 
 .element .slider__button_right {
   right: 0px;
-  top: 48.8%;
+  top: 41.8%;
 }
 
 .slider__button_left {
-  left: 20px;
+  left: 47%;
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -64,15 +67,33 @@
 
 .element .slider__button_left  {
   left: 0px;
-  top: 48.8%;
+  top: 41.8%;
 }
 
-@media screen and (min-width: 900px) {
+.card__banner {
+  width: 100%;
+}
+
+@media screen and (min-width: 901px) {
   .slider_grey {
     margin-top: 4.3%;
+    display: flex;
+    gap: 20px;
   }
 
   .slider_category {
     margin-top: 1.6%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .slider_grey {
+    margin-top: 4.3%;
+    display: grid;
+    gap: 20px;
+  }
+
+  .slider__button {
+    display: none;
   }
 }

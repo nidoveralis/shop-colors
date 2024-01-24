@@ -46,3 +46,10 @@
   justify-content: end;
   gap: 21%;
 }
+
+
+@media screen and (max-width: 900px) {
+  .button__list {
+    overflow-x: hidden;
+  }
+}

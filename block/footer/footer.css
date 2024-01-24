@@ -156,11 +156,17 @@
   width: 60px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 901px) {
   .footer {
     margin: 3.2vw 9.4vw;
     height: 560px;
     padding: 3%;
   }
 
+}
+
+@media screen and (max-width: 900px) {
+  .footer__catalog {
+    display: none;
+  }
 }

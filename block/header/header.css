@@ -164,7 +164,7 @@
   justify-content: space-between;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 901px) {
   .header__container,
   .header-first {
     padding: 13px 9.4vw;
@@ -182,5 +182,11 @@
     width: 58.8%;
     height: 60px;
     padding: 4px 4px 5px 25px
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__list {
+    display: none;
   }
 }

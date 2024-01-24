@@ -41,8 +41,14 @@
   color: #9293B0;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 901px) {
   .component {
     width: 32.5%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .components {
+    flex-direction: column;
   }
 }
